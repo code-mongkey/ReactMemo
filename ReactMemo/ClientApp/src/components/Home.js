@@ -6,7 +6,7 @@ export class Home extends Component {
   render () {
     return (
       <div>
-        <h1>리액트앱에 오실걸 환영합니다</h1>
+        <h1>Hello React</h1>
       </div>
     );
   }
