@@ -6,6 +6,8 @@ import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
+import ReactFragmentDemo from './components/ReactFragmentDemo';
+import { StateDemo } from './components/StateDemo';
 
 import './custom.css'
 
@@ -20,6 +22,8 @@ export default class App extends Component {
         <Route path='/contact' component={Contact} />
         <Route path='/fetch-data' component={FetchData} />
         <Route path='/About' component={About} />
+        <Route path='/ReactFragmentDemo' component={ReactFragmentDemo} />
+        <Route path='/stateDemo' component={StateDemo} />
       </Layout>
     );
   }
